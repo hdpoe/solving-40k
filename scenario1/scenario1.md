@@ -13,9 +13,13 @@ The objective is to determine how many hits the defender can be expected to take
 The full results are found in the scenario1.txt file, the summary of the results is as follows:
 
 Hits 0	Count: 3169	 (31.69%)
+
 Hits 1	Count: 4257	 (42.57%)
+
 Hits 2	Count: 2079	 (20.79%)
+
 Hits 3	Count: 459	 (4.590000000000001%)
+
 Hits 4	Count: 36	 (0.36%)
 
 
@@ -23,8 +27,8 @@ Mean result: 0.9936
 
 ## Analysis
 
-|Number of Wounding hits|Odds of getting at least X wounding hits| Number of times expected to get at least X wounding hits|
-|----------------------------------------|---------------------------------------------------------|
+| Number of Wounding hits | Odds of getting at least X wounding hits | Number of times expected to get at least X wounding hits |
+| ---------------------------------------- | --------------------------------------------------------- | -------------------- |
 |1| 68.31% | 17 out of 25|
 |2|25.75%| 1 out of 4|
 |3|4.95%| 1 out of 20|
