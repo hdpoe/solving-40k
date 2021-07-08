@@ -32,7 +32,7 @@ defmodule Combat do
 end
 
 scenario1 = %{ :attacks => 4, :attack_skill => 4, :strength => 4, :toughness => 4, :save => 4 }
-runs = 10000
+runs = 1000000
 wounding_hits = for _n <- 1..runs, do: Combat.simulate_combat(scenario1[:attacks], scenario1[:attack_skill], scenario1[:strength], scenario1[:toughness], scenario1[:save])
 avg = Enum.sum(wounding_hits) / Enum.count(wounding_hits)
 distrobution = Combat.frequencies(wounding_hits)
